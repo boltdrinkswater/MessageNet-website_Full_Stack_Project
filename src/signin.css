@@ -1,0 +1,36 @@
+
+
+.sign-in{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    justify-content: center;
+    border:2px solid black;
+    width:30vw;
+    height:70vh;
+    background-color: white;
+    color:black;
+
+    filter: blur(0px); /* Adjust the blur effect here */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 2); /* Adjust the shadow effect here */
+}
+
+
+.sign-in button {
+    width:100px; 
+}
+
+.sign-in p{
+    cursor: pointer;
+}
+
+.sign-in input{
+    height:30px;
+    width:300px;
+    margin-top:20px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,173 @@
+.outer-div{
+    display : flex;
+    flex-direction: row;
+    position: relative;
+    top:10px;
+
+
+}
+
+body{
+    margin: 0%;
+    overflow-y: hidden;
+    
+
+}
+
+
+.whatever{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+   
+}
+.left-div{
+    width:20vw;
+    border-right: 2px solid black;
+    height:90vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.right-div{
+    width: 50vw;
+    background-color: rgb(255, 255, 255);
+    height:90vh;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.right-right-div{
+    background-color: rgb(255, 255, 255);
+    width: 15vw;
+    border-left: 2px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#user-pfp{
+    border: 2px solid black;
+    height:200px;
+    width: 200px;
+    border-radius: 100px;
+    background-size: cover;
+}
+
+#great{
+    margin-left: 100px;
+    color: black;
+    margin-right: 20px;
+    align-items: center;
+}
+
+#great p{
+    margin-right: 80px;
+}
+
+
+.bottom-left{
+    border-top: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    height:auto;
+    color:black;
+    padding-top: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+
+}
+
+.header-chat{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height:70px;
+    margin-left: 20px;
+
+}
+    
+.friend-pic{
+    height:50px;
+    width: 50px;
+    border-radius: 100px;
+    margin-right: 70px;
+}
+
+.friendlist-div{
+    display: flex;
+}
+
+#input-msg{
+    position: absolute;
+    bottom: 1%;
+}
+
+#send-msg{
+    position: absolute;
+    bottom: 5%;
+}
+
+#msg{
+    position: absolute;
+    bottom: 10%;
+    
+}
+
+#msg input{
+    width:660px;
+    
+}
+
+.add-friend{
+    position: relative;
+    top:0px;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 30px;
+}
+
+#btn-add{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.messages {
+    height: 450px; /* Set the desired height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Hide horizontal scrolling */
+    border: 1px solid #ccc; /* Optional: Add a border for better visibility */
+    padding: 10px; /* Optional: Add padding for better spacing */
+    background-color: #f9f9f9; /* Optional: Add a background color */
+    color: black;
+}
+
+
+#typeamessage{
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+.friendlist-div {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-right: 20px;
+}
+
+.friendlist-div:hover {
+    background-color: #f0f0f0;
+}
+
+.friendlist-div.active {
+    background-color: #00008B; /* Black blue color */
+    color: white; /* Optional: Change text color for better contrast */
+}
+
+#username-display{
+    color:black;
+    font-size: 30px;
+}

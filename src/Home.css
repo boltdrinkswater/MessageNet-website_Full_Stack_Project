@@ -1,0 +1,92 @@
+/* src/Home.css */
+.nav-bar {
+    display: flex;
+    align-items: center;
+
+    padding: 10px;
+    border-bottom: 1px solid #000000;
+    
+    width:80vw;
+    height:40px;
+    
+    color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  
+    
+    
+  }
+
+  .nav-bar h2{
+    color: white; 
+  }
+  
+  body{
+   background-image: url(public/assets/desert.jpg);
+   background-size: cover;
+  }
+  .nav-bar img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .nav-bar h1 {
+    flex-grow: 1;
+    font-size: 24px;
+    color: #ffffff;
+    font-size: 40px;
+  }
+  
+  .nav-bar button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .nav-bar button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .mid-div{
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: flex-start;
+    width:40vw;
+    
+
+
+  }
+
+  h3{
+    text-align: left;
+  }
+
+  .outermost {
+    position: absolute;
+    left:50%;
+    top:10%;
+    transform: translate(-50%, -10%);
+  }
+
+  #mid-heading{
+    font-size: 30px;
+  }
+
+
+  .central{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mid-div2{
+    background-image: url(public/assets/msgpic.png);
+    height:500px;
+    width: 40vw;
+    margin-top: 50px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  }
